@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap 5  link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- my css style sheet -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- google fonts -->
+    <title>Kasper | Design No Three</title>
+</head>
+<body>
+    <!-- the start of nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Portfollio">Portfollio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+                <i class="fa fa-search 2x nav-item"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- the end of nav bar -->
+    <!-- start of home -->
+    <section class="home" id="home">
+        <!-- start of the slider -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="my-text">
+                            <h1>Hello World!
+                                We Are Kasper We Make Art.</h1>
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh
+                                pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                                tincidunt.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="my-text">
+                            <h1>Hello World!
+                                We Are Kasper We Make Art. <span>Iam slider two </span></h1>
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh
+                                pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                                tincidunt.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="my-text">
+                            <h1>Hello World!
+                                We Are Kasper We Make Art. <span>Iam slider three</span></h1>
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh
+                                pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                                tincidunt.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- end of the slider -->
+    </section>
+    <!-- end of home -->
+    <!-- start of services -->
+    <section class="services py-2" id="services">
+        <div class="container ">
+            <!-- universal title -->
+            <div class="uni-text py-1 text-center">
+                <h2 class="my-5">services</h2>
+                <p >Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+            </div>
+            <div class="row my-5">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <i class="fas fa-desktop fa-3x"></i>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="text">
+                                <h3>Vorem amet intuitive</h3>
+                                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh
+                                    pulvinar a. Curabitur aliquet quam.</p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <i class="fas fa-cog fa-3x"></i>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="text">
+                                <h3>Vorem amet intuitive</h3>
+                                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                                    tincidunt nibh
+                                    pulvinar a. Curabitur aliquet quam.</p>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <i class="fas fa-pencil-ruler fa-3x"></i>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="text">
+                                <h3>Vorem amet intuitive</h3>
+                                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                                    eget tincidunt nibh
+                                    pulvinar a. Curabitur aliquet quam.</p>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <i class="fas fa-camera fa-3x"></i>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="text">
+                                <h3>Vorem amet intuitive</h3>
+                                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                                    eget
+                                    tincidunt nibh
+                                    pulvinar a. Curabitur aliquet quam.</p>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of services -->
+    <!-- start of add1 -->
+    <div class="add1">
+      <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="./img/mobile.png" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <div class="add1-t ml-5">
+                        <h2>OUR DESIGN COMES WITH...</h2>
+                        <ul>
+                            <li>Responsive Design</li>
+                            <li >Modern And Clean Design</li>
+                            <li >Clean Code</li>
+                            <li >Browser Friendly</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </div>
+    <!-- end of add-1 -->
+    <!-- start of portfolio -->
+    <section class="portfolio py-2" id="Portfollio">
+        <div class="container ">
+            <!-- universal title -->
+            <div class="uni-text py-1 text-center">
+                <h2 class="my-5">Portfolio</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.</p>
+            </div>
+            <div class="row">
+                <ul id="anchorGroup">
+                    <li data-filter="all"><a href="#All" class="active">All</a></li>
+                    <li data-filter=".app"><a href="#App">App</a></li>
+                    <li data-filter=".photo"><a href="#Photo">Photo</a></li>
+                    <li data-filter=".web"><a href="#Web">Web</a></li>
+                    <li data-filter=".print"><a href="#Print">Print</a></li>
+                </ul>
+            </div>
+         </div>
+        <div class="filtering">
+            <div class="row">
+                <div class="col-lg-3 mix app">
+                    <img src="./img/shuffle-01.jpg" alt="">
+                    <div class="text">
+                        <p>Awesome Image</p>
+                        <span>Photography</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 mix photo">
+                    <img src="./img/shuffle-02.jpg" alt="">
+                    <div class="text">
+                        <p>Awesome Image</p>
+                        <span>Photography</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 mix web">
+                    <img src="./img/shuffle-03.jpg" alt="">
+                    <div class="text">
+                        <p>Awesome Image</p>
+                        <span>Photography</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 mix app">
+                    <img src="./img/shuffle-04.jpg" alt="">
+                    <div class="text">
+                        <p>Awesome Image</p>
+                        <span>Photography</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 mix photo">
+                    <img src="./img/shuffle-05.jpg" alt="">
+                    <div class="text">
+                        <p>Awesome Image</p>
+                        <span>Photography</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 mix web">
+                    <img src="./img/shuffle-06.jpg" alt="">
+                    <div class="text">
+                        <p>Awesome Image</p>
+                        <span>Photography</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 mix print">
+                    <img src="./img/shuffle-07.jpg" alt="">
+                    <div class="text">
+                        <p>Awesome Image</p>
+                        <span>Photography</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 mix print">
+                    <img src="./img/shuffle-08.jpg" alt="">
+                    <div class="text">
+                        <p>Awesome Image</p>
+                        <span>Photography</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-primary text-center">More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- start of video -->
+    <section class="video py-2">
+        <div class="overlay">
+        </div>
+        <video autoplay muted loop>
+            <source src="./img/awesome-video.mp4" type="video/mp4">
+        </video>
+        <div class="text">
+            <h3>SUPER AWESOME VIDEO HERE</h3>
+            <p>Its All You Need</p>
+            <button type="button" class="btn btn-dark">See More</button>
+        </div>
+    </section>
+    <!-- end of video -->
+    <!-- start of about us -->
+    <section class="about-us">
+        <div class="container">
+            <!-- universal title -->
+            <div class="uni-text py-1 text-center">
+                <h2 class="my-5">About Us</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+            </div>
+            <div class="row">
+                <img src="./img/about.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- end of about us -->
+    <!-- start of add-2 -->
+    <section class="add2" id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="box">
+                        <i class="fas fa-mug-hot"></i>
+                        <h3>1.236</h3>
+                        <p>coffe drinks</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="box">
+                        <i class="far fa-folder"></i>
+                        <h3>256</h3>
+                        <p>Completed Projects</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="box">
+                       <i class="far fa-envelope"></i>
+                        <h3>1,743</h3>
+                        <p>Main Sent</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="box">
+                        <i class="fas fa-trophy"></i>
+                        <h3>17</h3>
+                        <p>Awards Recived</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of add2 -->
+    <!-- start of pricing -->
+    <section class="pricing" id="Pricing">
+        <div class="container py-4">
+            <!-- universal title -->
+            <div class="uni-text py-1 text-center">
+                <h2 class="my-5">Pricing</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="f-price">
+                        <h4>basic</h4>
+                        <span class="bf">19</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-info">Buy Now</button>
+                </div>
+                <div class="col-lg-3">
+                    <div class="f-price">
+                        <h4>PREMIUM</h4>
+                        <span class="bf">29</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-info">Buy Now</button>
+                </div>
+                <div class="col-lg-3">
+                    <div class="f-price">
+                        <h4>Pro</h4>
+                        <span class="bf">39</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-info">Buy Now</button>
+                </div>
+                <div class="col-lg-3">
+                    <div class="f-price">
+                        <h4>PLATINUM</h4>
+                        <span class="bf">49</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-info">Buy Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 mt-5">
+                    <div class="pricing-footer">
+                        <h4>Contact us if you have special request</h4>
+                        <button type="button" class="btn btn-primary mt-4">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of pricing -->
+    <!-- start of contact us -->
+    <section class="contact-us py-2" id="Contact">
+        <div class="container">
+            <!-- universal title -->
+            <div class="uni-text py-1 text-center">
+                <h2 class="my-5">Contact Us</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <div class="t1">
+                        <h5>GET IN TOUCH</h5>
+                        <p>+00 123.456.789</p>
+                        <p>+00 123.456.789</p>
+                    </div>
+                    <div class="t2 my-5">
+                        <h5>WHERE WE ARE</h5>
+                        <p>Awesome Address 17</p>
+                        <p>New York, NYC</p>
+                        <p>123-4567-890</p>
+                        <p>USA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of contact us -->
+    <!-- start footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <img src="./img/logo.png" alt="">
+                    <p>WE ARE SOCIAL</p>
+                    <div class="social">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <div class="ff">
+                            &copy;2021<p><span>Made By:Ahmed Barakat</span> All Right Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- scroll to top icon -->
+        <a class ="scrolltop" href="#">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+    </section>
+    <!-- end of footer -->
+</body>
+<!-- jquery link -->
+<script src="js/jquery-3.6.0.min.js"></script>
+<!-- font awsome kit -->
+<script src="https://kit.fontawesome.com/80d0ecd70a.js" crossorigin="anonymous"></script>
+<!-- bootstrap 5 link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+crossorigin="anonymous"></script>
+<!-- mixitup plugin -->
+<script src="./js/mixitup.min.js"></script>
+<script>
+    var mixer = mixitup('.filtering');
+</script>
+<!-- my js script file -->
+<script src="./js/main.js"></script>
+</html>
