@@ -1,5 +1,3 @@
-# A JoB Finder Responsive Web Site
-
 ## this site is a Portfolio Responsive Site
 
 ## were made With :
